@@ -1,0 +1,15 @@
+GET http://127.0.0.1:3000/user
+
+### 
+
+POST http://127.0.0.1:3000/auth
+Content-Type: application/json
+
+{
+    "username":"2"
+}
+
+###
+
+GET  http://127.0.0.1:3000/auth
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRrIiwiaWF0IjoxNjY2MzI2OTMxfQ.09olTkoflgF2F49SjS4Bxlp3UJ_5GgKtGvYOi5dghV0
